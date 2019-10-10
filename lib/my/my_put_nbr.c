@@ -7,7 +7,7 @@
 
 void my_putchar(char c);
 
-void resexception()
+void resexception(void)
 {
     my_putchar('-');
     my_putchar(2 + '0');
