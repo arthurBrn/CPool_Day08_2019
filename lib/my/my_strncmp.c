@@ -22,16 +22,16 @@ int my_strncmp(char const *s1, char const *s2, int n)
     if (s2[0] == '\n')
         return ('0');
     if (my_strlen(s1) == my_strlen(s2)) {
-        if (going_through_string(s1, n) > going_through_string(s2,n))
+        if (going_through_string(s1, n) > going_through_string(s2, n))
             return (1);
-        else if(going_through_string(s1, n) < going_through_string(s2,n))
+        else if (going_through_string(s1, n) < going_through_string(s2, n))
             return (-1);
         else
             return (0);
     } else {
-        if (going_through_string(s1, n) > going_through_string(s2,n))
+        if (going_through_string(s1, n) > going_through_string(s2, n))
             return (1);
-        else if(going_through_string(s1,n) < going_through_string(s2,n))
+        else if (going_through_string(s1, n) < going_through_string(s2, n))
             return (-1);
         else
             return (0);
