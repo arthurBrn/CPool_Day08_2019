@@ -13,6 +13,5 @@ int my_isneg(int n)
         my_putchar('P');
     else
         my_putchar('N');
-
     return (0);
 }
